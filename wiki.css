@@ -1,0 +1,36 @@
+.search-bar{
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: 1px solid #D3D3D3;
+    width: 35%;
+    font-size: 15px;
+}
+.search-bar:focus {
+    outline: none;
+}
+.search-card {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+iframe {
+    display: none;
+}
+.overflow-scroll {
+    overflow: auto;
+    max-height: 325px;
+    /* display: none; */
+}
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px
+}
+.btn :focus {
+    outline: none;
+}
+.random-article {
+    border-radius: 25px;
+}
+.search-result:hover {
+    cursor: pointer;
+}
