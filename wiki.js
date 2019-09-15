@@ -4,7 +4,6 @@ function ajaxCall() {
     dataType: 'jsonp',
     type: 'GET',
     success: function(data) {
-        console.log(data)
         var searchResults = '';
         data.query.search.forEach(function(obj) {
             searchResults += `<h4 class="search-result" style="color:#0066ff">${obj.title}</h4><br>${obj.snippet}<br><hr>`
